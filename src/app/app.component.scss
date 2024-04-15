@@ -7,7 +7,8 @@
   margin: 0;
   padding: 0;
   //   background-color: hsl(0, 0%, 16%);
-  background-color: #232323;
+  //   background-color: #232323;
+  background-color: white;
   .header {
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
       rgba(0, 0, 0, 0.22) 0px 15px 12px;
@@ -19,7 +20,8 @@
     // grid-template-columns: repeat(13, 1fr);
     grid-template-columns: 50px 1fr repeat(8, 50px) 180px;
     i {
-      color: #909092;
+      //   color: #909092;
+      color: #767676;
       font-size: 18px;
     }
 
@@ -74,32 +76,41 @@
     }
     .video,
     .mic,
-    .share,
+    .share {
+      i {
+        color: black;
+      }
+      .material-symbols-outlined {
+        color: black;
+      }
+    }
     .phone-icon,
     .chevron-icon {
       i {
         color: white;
+        font-size: 14px;
       }
       .material-symbols-outlined {
+        font-size: 20px;
         color: white;
       }
     }
     .leave-btn {
       display: flex;
       background-color: #d62b51;
-      width: 150px;
+      width: 120px;
       align-items: center;
-      gap: 12px;
+      gap: 8px;
       justify-content: center;
       height: 35px;
       border-radius: 6px;
       h2 {
         color: white;
         font-weight: 500;
-        font-size: 18px;
+        font-size: 16px;
       }
       .chevron-icon {
-        padding-left: 18px;
+        padding-left: 14px;
       }
     }
   }
