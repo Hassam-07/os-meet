@@ -15,10 +15,10 @@
     padding: 20px;
     grid-row: 1/2;
     grid-column: 1/14;
-    display: grid;
+    display: flex;
+    justify-content: space-between;
     gap: 10px;
-    // grid-template-columns: repeat(13, 1fr);
-    grid-template-columns: 50px 1fr repeat(8, 50px) 180px;
+    // grid-template-columns: 50px 1fr repeat(8, 50px) 180px;
     i {
       //   color: #909092;
       color: #767676;
@@ -31,6 +31,16 @@
       display: flex;
       align-items: center;
       font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+    }
+    .left-header {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+    }
+    .right-header {
+      display: flex;
+      align-items: center;
+      gap: 30px;
     }
     .screen-recording {
       display: flex;
